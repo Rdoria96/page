@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="image/logo.png">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand bg-light ">
+        <div class="container-fluid max-w-7xl mx-auto px-4 sm:px-6 lg:px-2">
+            <a class="navbar-brand " href="#">
+                <img src="/image/Logo.png" alt="" width="70" height="70" class="d-inline-block align-text-top">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active text-primary" aria-current="page" href="index.html">Inicio</a>
+                    <a class="nav-link  text-secondary" href="tabla.html">Hoteles</a>
+                    <a class="nav-link text-success" href="#">Tipos de habitaciones</a>
+                    <a class="nav-link text-warning" href="#">Acomodaciones</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="m-auto p-lg-4 bg-primary">
+            Panel de Administración
+        </div>
+    </header>
+
+    <main class=" w-auto p-0 m-4 ">
+        <div class="m-4 p-4">
+            <div class="m-auto p-lg-4 bg-light rounded-3">
+                <div class="flex mb-3">
+                    <a class="navbar-brand " href="index.html">
+                        <img src=" image/icons8-home-24.png" alt="" width="24" height="24"
+                            class="d-inline-block align-text-top p-1">
+                        Inicio
+                    </a>
+                    <a class="navbar-brand " href="tabla.html">
+                        <img src="image/simbolo.png" alt="" width="24" height="24"
+                            class="d-inline-block align-text-top p-1">
+                        Hoteles
+                    </a>
+                    <a class="navbar-brand text-primary">
+                        <img src="image/simbolo.png" alt="" width="24" height="24"
+                            class="d-inline-block align-text-top p-1">
+                        Habitaciones
+                    </a>
+                </div>
+                <div>
+                    <div class="flex items-center mb-2">
+                        <a class="navbar-brand ">
+                            <img src="/image/Logo.png" alt="" width="70" height="70"
+                                class="d-inline-block align-text-top">
+                        </a>
+                        <h3 class="d-inline-block align-text-top m-1 p-1 mx-lg-1 m-lg-3 font-medium text-3xl">
+                            NAME HOTELES
+                        </h3>
+                        <div
+                            class="d-inline-block align-text-top m-1 p-1 mx-lg-1 m-lg-3 float-lg-end font-medium text-3xl">
+                            <div>
+                                <a href="crear_habitaciones.html"><button type="submit" class="btn bg-primary">Crear
+                                        habitaciones</button></a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">TIPO</th>
+                                <th scope="col">ACOMODACI&Oacute;N</th>
+                                <th scope="col">CANTIDAD</th>
+                                <th scope="col"></th>
+                                <th scope="col"></th>
+                                <th scope="col"></th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>JUNIOR</td>
+                                <td>TRIPLE</td>
+                                <td>5</td>
+                                <td> <a href="actualizar_habitacion.html"><button type="submit"
+                                            class="btn btn-warning">Editar</button></a>
+                                </td>
+                                <td> <a href=""><button type="submit" class="btn btn-danger">Eliminar</button></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>ESTANDAR</td>
+                                <td>SENCILLA</td>
+                                <td>6</td>
+                                <td> <a href="actualizar_habitacion.html"><button type="submit"
+                                            class="btn btn-warning">Editar</button></a>
+                                </td>
+                                <td> <a href=""><button type="submit" class="btn btn-danger">Eliminar</button></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: cornflowerblue;">
+            <h1 style="font-size:12px" class="text-dark">DIPLOMADO EN DESARROLLO DE APLICACIONES ORIENTADAS A LA NUBE
+            </h1>
+            © 2022 Copyright:
+            <a class="text-dark" href="https://mdbootstrap.com/">Todos los derechos reservados</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+</body>
+<script src="js/bootstrap.min.js"></script>
+
+</html>
